@@ -1,0 +1,15 @@
+handlers:
+ path: /var/lib/emas/mods
+ load:
+  - fails-report
+connection:
+ port: 25
+ listen: 10.31.14.60
+logging:
+ file: /var/log/emas/server.log
+ level: debug
+smtp:
+ mydomain: mail.example.com
+files:
+ pid: /var/run/emas.pid
+ workdir: /var/lib/emas
