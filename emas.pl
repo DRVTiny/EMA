@@ -8,7 +8,7 @@ use lib '/opt/Perl5/libs';
 use constant {
     DFLT_LOG_FILE=>'ae-mail-server.log',
     DFLT_SMTP_PORT=>25,
-    DFLT_OUR_DOMAIN=>'unix.nspk.ru',
+    DFLT_OUR_DOMAIN=>'mail.example.com',
     DFLT_PID_FILE=>q|/tmp/ae-mail-server.pid|,
     DFLT_WORK_DIR=>q|/tmp|,
 };
